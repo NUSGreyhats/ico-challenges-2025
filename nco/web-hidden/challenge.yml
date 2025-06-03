@@ -1,0 +1,17 @@
+name: Hidden
+author: NUS Greyhats
+category: Web
+description: >-
+  We have located the admin server of the network. Can you locate a hidden administration
+  interface and exploit it to obtain the flag?
+value: 50
+
+image: ./service
+protocol: http
+connection_info: https://nco2025-hidden.chals.io
+
+flags:
+- NCO{hidden_flag_hehe}
+
+state: hidden
+attribution: Challenge by [NUS Greyhats](https://nusgreyhats.org)

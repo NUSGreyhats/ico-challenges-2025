@@ -1,0 +1,23 @@
+In Windows, after running the program, the files can be located in `AppData/Local/Programs/CrackMeBaby`.
+
+Realise that it is an electron app, then extract the source code from within the .asar archive.
+
+The decryption logic is implemented in `renderer.js`. 
+
+Original key and IV are hardcoded:
+
+```
+var iv = "7729ae2cc35aabd4ca017a9edebc1fa8";
+var key = "fc2c33ac5f4ad6989fb20fecb7dbd969461419d68d5248292142eb8821ca8749";
+var ct = "623d6edb07f1b4d19ae7c2a5164bd720934a5614ccc0e42410c518f2d7fd3d26";
+```
+
+However, the user inputted key is first XORed with the hardcoded key and checked that each byte XORs to 69. 
+
+Afterwards, the user-inputted key is used, together with the hardcoded IV, to decrypt the ciphertext.
+
+To solve, simply XOR each byte in the original key with 69 to get the actual decryption key.
+
+Then enter the correct key in hex and obtain the flag.
+
+The correct key would be b96976e91a0f93dddaf74aa9f29e9c2c03515c93c8170d6c6407aecd648fc20c

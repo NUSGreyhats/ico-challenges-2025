@@ -1,0 +1,42 @@
+{
+  "name": "crackmebaby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "build": {
+    "appId": "com.nco.crackmebaby",
+    "productName": "CrackMeBaby",
+    "files": [
+      "main.js",
+      "preload.js",
+      "index.html",
+      "renderer.js",
+      "style.css"
+    ],
+    "directories": {
+      "output": "build"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "Elijah",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^35.1.5",
+    "electron-builder": "^26.0.12"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
+  }
+}

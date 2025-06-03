@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>CrackMeBaby</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <label for="key-id">Enter key:</label>
+      <br />
+      <input type="text" id="key-input" placeholder="Enter your key" />
+      <button class="btn" disabled id="check-btn">Check key</button>
+      <div id="error-message" class="error-message">No Error</div>
+      <div id="success-message" class="success-message">No Result</div>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+</html>

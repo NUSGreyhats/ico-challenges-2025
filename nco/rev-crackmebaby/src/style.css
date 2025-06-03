@@ -1,0 +1,80 @@
+/* Base styling for body and container */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+}
+
+#key-input {
+  padding: 12px;
+  margin-top: 8px;
+  font-size: 18px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 16px;
+}
+
+#key-input:focus {
+  border-color: #00c853;
+  box-shadow: 0 0 8px rgba(0, 200, 83, 0.5);
+}
+
+/* Button styling */
+.btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#check-btn {
+  background-color: #00c853;
+  color: white;
+}
+
+#check-btn:hover {
+  background-color: #00a142;
+}
+
+#check-btn:disabled {
+  background-color: #6a6a6a;
+  color: white;
+  cursor: not-allowed;
+}
+
+#check-btn:hover:disabled {
+  background-color: #6a6a6a;
+  color: white;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+  visibility: hidden;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-top: 5px;
+  display: block;
+  visibility: hidden;
+}

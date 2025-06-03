@@ -1,0 +1,6 @@
+services:
+  cybercard:
+    privileged: false
+    build: .
+    ports:
+      - "51000:8000"

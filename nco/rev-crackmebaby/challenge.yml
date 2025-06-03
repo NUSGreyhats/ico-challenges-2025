@@ -1,0 +1,30 @@
+name: CrackMeBaby
+author: NUS Greyhats
+category: Reverse Engineering
+description: >
+  My friend just got into software engineering, and promised me a flag if I could just find the correct key to his program! I suck at rev tho, so could you help me out? For Mac users, you may have to do xattr -c <path/to/application.app> to make the program executable. For Windows users, the program may be blocked by Windows Defender. It's safe though, trust me :)
+
+  **Note:** ARM Mac users should download `CrackMeBaby-1.0.0-arm64.dmg` and Windows users should download `CrackMeBaby Setup 1.0.0.exe`.
+
+  Author: Elijah
+value: 50
+
+flags:
+- NCO{el3ctR0n_15_tr1v14L_t0_r3V}
+
+files:
+- ./dist/CrackMeBaby Setup 1.0.0.exe
+- ./dist/CrackMeBaby-1.0.0-arm64.dmg
+
+hints:
+  - {
+    content: "Look at the folder structure of the program and the app icon. What kind of app is it?",
+    cost: 10
+  }
+  - {
+    content: "The program is an electron app. There is a way to retrieve the source code from electron apps!",
+    cost: 20
+  }
+
+state: hidden
+attribution: 'Challenge by [NUS Greyhats](https://nusgreyhats.org)'

@@ -1,0 +1,16 @@
+name: notsus.exe
+author: NUS Greyhats
+category: Forensics
+description: 'Tom encrypted his calc.exe and the flag file with a password, but he forgot it! Can you help him recover it?
+
+Also, he mentioned his Windows version is "Windows 10 1607". Not sure why he mentioned it - he should consider upgrading it to Windows 11 ASAP...'
+value: 50
+
+flags:
+- NCO{zip_cracking_without_password!}
+
+files:
+- dist.zip
+
+state: hidden
+attribution: 'Challenge by [NUS Greyhats](https://nusgreyhats.org)'

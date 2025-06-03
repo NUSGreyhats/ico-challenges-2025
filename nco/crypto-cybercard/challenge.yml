@@ -1,0 +1,22 @@
+name: Cyber Card
+author: NUS Greyhats
+category: Cryptography
+description: >-
+  I made a Python program that generates test debit cards of certain amounts and processes
+  them. My friend managed to make a card of some ridiculously large balance, making
+  my bank go broke! Can you find out how he did it?
+
+  Author: Elijah
+value: 50
+
+image: ./src
+protocol: tcp
+
+flags:
+- NCO{n0Nc3_mE4n5_nUMB3R_us3d_0nCe}
+
+files:
+- dist/chall.py
+
+state: hidden
+attribution: 'Challenge by [NUS Greyhats](https://nusgreyhats.org)'
