@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tung Tung Tung Sahur</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, #667eea 0%%, #764ba2 100%%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .hero-section {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+        
+        .tung-title {
+            background: linear-gradient(45deg, #ff6b6b, #feca57, #48cae4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .form-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+        
+        .btn-tung {
+            background: linear-gradient(45deg, #ff6b6b, #feca57);
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-tung:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            color: white;
+        }
+        
+        .floating-elements {
+            position: absolute;
+            font-size: 2rem;
+            opacity: 0.1;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%%, 100%% { transform: translateY(0px); }
+            50%% { transform: translateY(-20px); }
+        }
+        
+        .floating-1 { top: 20%%; left: 10%%; animation-delay: 0s; }
+        .floating-2 { top: 60%%; right: 15%%; animation-delay: 2s; }
+        .floating-3 { bottom: 30%%; left: 20%%; animation-delay: 4s; }
+    </style>
+</head>
+<body>
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <img src="/tung.png"/>
+            <img src="/tung.png"/>
+            <img src="/tung.png"/>
+            <div class="form-container p-4">
+                <h3 class="text-center mb-4 text-primary">
+                    Tung Tung Tung Sahur
+                </h3>
+                    %s
+                    <div style="display: none">Client address: {{ .RemoteAddr }}</div>
+            </div>
+            <img src="/tung.png"/>
+            <img src="/tung.png"/>
+            <img src="/tung.png"/>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

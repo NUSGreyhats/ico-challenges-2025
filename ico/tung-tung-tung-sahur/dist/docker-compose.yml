@@ -1,0 +1,8 @@
+services:
+  tung_tung_tung_sahur:
+    container_name: web-tung_tung_tung_sahur
+    build: .
+    ports:
+      - "33201:8080"
+    environment:
+      - FLAG=ICO{fake_flag}
