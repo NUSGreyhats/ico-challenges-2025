@@ -1,0 +1,10 @@
+[package]
+name = "aesgoatedmode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aes-gcm = "=0.10.1"           # AES-GCM implementation
+aes = "0.8"                # AES block cipher
+rand = "0.8"               # Random number generation
+hex = "0.4"

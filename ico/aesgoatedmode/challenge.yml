@@ -1,0 +1,19 @@
+attribution: elijah5399
+author: elijah5399
+category: Crypto
+connection_info: nc XXX.XXX.XXX.XXX 33003
+description: I combined a super secure programming language with a super secure AES
+  mode to create an even more secure cryptographic algorithm! I call it AES GOATED
+  mode. Surely it has no vulnerabilities !
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-aesgoatedmode.zip
+flags:
+- ICO{1_l0vE_Me_s0M3_CV3s_beepb00p}
+name: Aesgoatedmode
+state: visible
+type: dynamic
+value: 1000

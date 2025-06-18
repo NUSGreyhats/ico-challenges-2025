@@ -1,0 +1,17 @@
+attribution: elijah5399
+author: elijah5399
+category: Crypto
+connection_info: nc XXX.XXX.XXX.XXX 33301
+description: ''
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-zeroknowledgepoof.zip
+flags:
+- ICO{d1D_y0u_s3e_My_ze3e3ero_kNoWL3d9e_p00f???}
+name: zeroknowledgepoof
+state: visible
+type: dynamic
+value: 1000

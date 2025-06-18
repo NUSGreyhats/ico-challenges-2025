@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: crypto-aesgoatedmode
+    build: .
+    privileged: true
+    ports:
+        - 33004:5000
