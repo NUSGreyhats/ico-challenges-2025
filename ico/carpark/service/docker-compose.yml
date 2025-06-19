@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: pwn-carpark
+    build: .
+    privileged: true
+    ports:
+        - 33102:5000

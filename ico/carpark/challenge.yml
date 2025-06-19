@@ -1,0 +1,17 @@
+attribution: elijah5399
+author: elijah5399
+category: Pwn
+connection_info: nc XXX.XXX.XXX.XXX 33102
+description: 'I was too broke to afford an actual car, so I decided to make this app to simulate a carpark instead...'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-carpark.zip
+flags:
+- ICO{h0W_m4nY_C4R5_w0UlD_4_c4rpArK_p4rK_1F_a_carp4rK_c0u1d_p4rk_car5}
+name: carpark
+state: visible
+type: dynamic
+value: 1000
