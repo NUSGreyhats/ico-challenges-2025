@@ -9,7 +9,8 @@ if p < q:
 
 n = p * q
 
-s = (pow(p, q, n) + pow(q, p, n)) % n
+t = n ** 3
+s = (pow(p, q, t) + pow(q, p, t)) % t
 
 with open("../flag.txt", "rb") as f:
     flag = f.read().strip()
