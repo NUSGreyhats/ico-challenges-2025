@@ -15,8 +15,8 @@ void setup(){
 }
 
 struct Carparks {
-    ll carpark1[CARPARK1_SPACE];                      // comes first in memory
-    vector<ll> carpark2 = vector<ll>(CARPARK2_SPACE, 0);  // comes next
+    ll carpark1[CARPARK1_SPACE];
+    vector<ll> carpark2 = vector<ll>(CARPARK2_SPACE, 0); 
 };
 
 int main() {
