@@ -1,6 +1,6 @@
 attribution: 'Challenge by [NUS Greyhats](https://ctftime.org/team/16740/)'
 author: elijah5399
-category: Pwn
+category: Binary Exploitation
 connection_info: nc ico.nusgreyhats.org 33102
 description: >-
   I was too broke to afford an actual car, so I decided to make this app to simulate a carpark instead...

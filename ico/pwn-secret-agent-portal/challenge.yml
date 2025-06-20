@@ -1,6 +1,6 @@
 name: Top Secret Portal 🩶
 author: NUS Greyhats
-category: Pwn
+category: Binary Exploitation
 connection_info: nc ico.nusgreyhats.org 33123
 description: >-
   I found this suspicious secret agent portal, but I can't seem to find the right set of credentials to enter.

@@ -1,7 +1,0 @@
-services:
-  zeroknowledgepoof:
-    container_name: zeroknowledgepoof
-    privileged: false
-    build: ./service/
-    ports:
-      - "33301:5399"
