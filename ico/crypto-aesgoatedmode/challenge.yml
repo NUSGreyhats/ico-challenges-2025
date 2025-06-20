@@ -1,0 +1,18 @@
+attribution: 'Challenge by [NUS Greyhats](https://ctftime.org/team/16740/)'
+author: elijah5399
+category: Cryptography
+connection_info: nc ico.nusgreyhats.org 33004
+description: >- 
+  I combined a super secure programming language with a super secure AES mode to create an even more secure cryptographic algorithm! I call it AES GOATED mode. Surely it has no vulnerabilities !
+
+
+
+  Author: elijah5399
+files:
+- dist-aesgoatedmode.zip
+flags:
+- ICO{1_l0vE_Me_s0M3_CV3s_beepb00p}
+name: Aesgoatedmode 🩶
+state: hidden
+type: standard
+value: 100

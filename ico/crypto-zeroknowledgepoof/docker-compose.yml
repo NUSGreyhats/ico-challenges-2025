@@ -2,6 +2,6 @@ services:
   zeroknowledgepoof:
     container_name: zeroknowledgepoof
     privileged: false
-    build: .
+    build: ./service/
     ports:
       - "33301:5399"
